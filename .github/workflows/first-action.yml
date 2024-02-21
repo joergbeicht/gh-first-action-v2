@@ -11,7 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     # stepa 1 von n eines job. Jeder - entspricht eine step. - name ist z.B. ein step
     steps:
+      # name gibt das in der Console aus
       - name: Print greeding
-      run: echo "Hello World"
+      # run  gibt das in der Console aus
+        run: echo "Hello World"
       - name: Print godbye
-      run: echo "Done - bye!"
+        run: echo "Done - bye!"

@@ -12,7 +12,7 @@ jobs:
     # stepa 1 von n eines job. Jeder - entspricht eine step. - name ist z.B. ein step
     steps:
       # name gibt das in der Console aus
-      - name: Print greeding
+      - name: Print greeding 2
       # run  gibt das in der Console aus
         run: echo "Hello World"
       - name: Print godbye

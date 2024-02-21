@@ -9,7 +9,6 @@ jobs:
     # runs-on definert den runner, also die notwendige Umgebung
     # siehe https://docs.github.com/de/actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners
     runs-on: ubuntu-latest
-    # stepa 1 von n eines job. Jeder - entspricht eine step. - name ist z.B. ein step
     steps:
       - name: Print greeding
       - run: echo "Hello World"
